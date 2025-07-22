@@ -1,14 +1,17 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom'
 import App from './App'
 import { ScreenSizeProvider } from '@ui/screen-size-provider'
+import Variables from '@ui/design-system/variables';
 
-import './index.css'
+// import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+ReactDOM.render(
   <React.StrictMode>
     <ScreenSizeProvider>
+      <Variables />
       <App />
     </ScreenSizeProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 )

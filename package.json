@@ -9,17 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ui/design-system": "^8.14.4",
+    "@ui/design-system": "13.13.0",
     "@ui/screen-size-provider": "^4.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.24",
-    "@types/react-dom": "^18.0.8",
+    "@types/react": "^16.14.0",
+    "@types/react-dom": "^16.9.25",
     "@vitejs/plugin-react": "^2.2.0",
     "less": "^4.4.0",
-    "typescript": "^4.6.4",
+    "typescript": "4.6.4",
     "vite": "^3.2.3"
   }
 }
