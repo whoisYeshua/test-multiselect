@@ -148,7 +148,11 @@ function Sandbox(args: typeof sandboxDefaultProps) {
     })
   }
 
-  return <CombinedSelect {...args} fields={fieldsState} locked={locked} onChange={onFieldChange} />
+  return (
+    <div style={{ width: '440px', padding: '180px 32px' }}>
+      <CombinedSelect {...args} fields={fieldsState} locked={locked} onChange={onFieldChange} />
+    </div>
+  )
 }
 
 export default Sandbox
